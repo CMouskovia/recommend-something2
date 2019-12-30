@@ -1,0 +1,110 @@
+body{
+    text-align: center;
+}
+#header1{
+    font-weight: normal;
+    font-size: 70pt;
+    text-decoration: underline;
+}
+#recommended{
+    float: left;
+    border: 2px solid black;
+    background-color: grey;
+    padding:50px;
+    margin-left: 170px;
+}
+#recommended2{
+    font-size: 35pt;
+    color: white;
+}
+#submitButtonX{
+    font-size: 30pt;
+    padding: 50px;
+    color: blue;
+    font-weight: bold;
+    background-color: #ccc5c5;
+    position: absolute;
+    left: 30px;
+}
+#submitButtonY{
+    font-size: 30pt;
+    padding: 50px;
+    color: blue;
+    font-weight: bold;
+    background-color: #ccc5c5;
+    position: absolute;
+    left: 345px;
+}
+#submitButtonZ{
+    font-size: 30pt;
+    padding: 50px;
+    color: blue;
+    font-weight: bold;
+    background-color: #ccc5c5;
+    position: absolute;
+    right: 30px;
+}
+/*========================For Desktop==============================*/
+@media only screen and (min-width: 1037px) {
+    #submitButtonX {
+        font-size: 30pt;
+        padding: 50px;
+        color: blue;
+        font-weight: bold;
+        background-color: #ccc5c5;
+        position: absolute;
+        left: 130px;
+    }
+
+    #submitButtonY {
+        font-size: 30pt;
+        padding: 50px;
+        color: blue;
+        font-weight: bold;
+        background-color: #ccc5c5;
+        position: absolute;
+        left: 550px;
+    }
+
+    #submitButtonZ {
+        font-size: 30pt;
+        padding: 50px;
+        color: blue;
+        font-weight: bold;
+        background-color: #ccc5c5;
+        position: absolute;
+        right: 130px;
+    }
+}
+/*========================For Tablets==============================*/
+@media only screen and (min-width:1024px) and (max-width:1281px) {
+    #submitButtonX {
+        font-size: 30pt;
+        padding: 50px;
+        color: blue;
+        font-weight: bold;
+        background-color: #ccc5c5;
+        position: absolute;
+        left: 30px;
+    }
+
+    #submitButtonY {
+        font-size: 30pt;
+        padding: 50px;
+        color: blue;
+        font-weight: bold;
+        background-color: #ccc5c5;
+        position: absolute;
+        left: 385px;
+    }
+
+    #submitButtonZ {
+        font-size: 30pt;
+        padding: 50px;
+        color: blue;
+        font-weight: bold;
+        background-color: #ccc5c5;
+        position: absolute;
+        right: 30px;
+    }
+}
